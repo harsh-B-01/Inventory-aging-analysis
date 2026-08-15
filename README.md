@@ -1,6 +1,6 @@
 # Inventory Aging Analysis
 
-A SQL-based inventory analysis, where I applied applied FIFO (First-In, First-Out) logic to classify warehouse stock into aging buckets. The analysis helped identify slow-moving inventory, reduce holding costs, and support replenishment decisions.
+A SQL-based inventory analysis, where I applied FIFO (First-In, First-Out) logic to classify warehouse stock into aging buckets. The analysis helped identify slow-moving inventory, reduce holding costs, and support replenishment decisions.
 
 ## Problem Statement
 Classify warehouse inventory into age buckets (0-90, 91-180, 181-270, 271-365 days) using FIFO logic to identify slow-moving stock and support supply chain decisions.
