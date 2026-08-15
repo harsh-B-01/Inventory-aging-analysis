@@ -1,10 +1,9 @@
 # Inventory Aging Analysis
 
-A SQL-based inventory analysis that applies FIFO (First-In, First-Out) logic to classify warehouse stock into aging buckets. The analysis helps identify slow-moving inventory, reduce holding costs, and support replenishment decisions.
+A SQL-based inventory analysis that applied FIFO (First-In, First-Out) logic to classify warehouse stock into aging buckets. The analysis helped identify slow-moving inventory, reduce holding costs, and support replenishment decisions.
 
 ## Problem Statement
-Classify warehouse inventory into age buckets (0-90, 91-180, 181-270, 271-365 days)
-using FIFO logic to identify slow-moving stock and support supply chain decisions.
+Classify warehouse inventory into age buckets (0-90, 91-180, 181-270, 271-365 days) using FIFO logic to identify slow-moving stock and support supply chain decisions.
 
 ## Dataset
 13 warehouse transactions (InBound/OutBound) from May 2019 to May 2020.
@@ -16,8 +15,7 @@ using FIFO logic to identify slow-moving stock and support supply chain decision
 <img width="642" height="92" alt="image" src="https://github.com/user-attachments/assets/058e294f-3636-45e2-a58a-a4d19705c443" />
 
 ## Key Finding
-As of 25th May 2020: 176 units are fresh (0-90 days), 102 units are aging (91-180 days),
-no critically old stock detected.
+As of 25 May 2020, 176 units were fresh (0–90 days), while 102 units were aging (91–180 days), with no critically old stock detected.
 
 
 ## Business Recommendation
